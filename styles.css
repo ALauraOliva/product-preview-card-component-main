@@ -59,7 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 4rem;
+  padding: 3.2rem 3.2rem;
   height: 100%;
 }
 
@@ -74,28 +74,28 @@ body {
 .title {
   font-family: frauncesBold;
   color: var(--veryDarkBlue);
-  font-size: 3rem;
+  font-size: 3.15rem;
   line-height: 1;
 }
 
 p {
   color: var(--darkGrayishBlue);
   font-family: monserratMedium;
-  line-height: 1.8;
-  font-size: 1.3rem;
+  line-height: 1.6;
+  font-size: 1.41rem;
 }
 
 .price-container {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.7rem;
 }
 
 .ins-price {
   color: var(--darkCyan);
   text-decoration: none;
   font-family: frauncesBold;
-  font-size: 3rem;
+  font-size: 3.15rem;
 }
 
 .del-price {
@@ -107,7 +107,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.1rem;
   background-color: var(--darkCyan);
   color: var(--cream);
   border-style: none;
