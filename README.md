@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://i.ibb.co/D5vCFFM/502shots-so.png)
+![](https://i.ibb.co/Mn4nySD/21shots-so.png)
 
 ### Links
 
