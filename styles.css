@@ -59,7 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2.2rem;
+  padding: 4rem;
   height: 100%;
 }
 
