@@ -33,11 +33,12 @@ html {
 
 body {
   background-color: var(--cream);
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem 0;
 }
 
 .container {
@@ -45,22 +46,21 @@ body {
   flex-direction: column;
   overflow: hidden;
   background: var(--white);
-  height: 62rem;
+  height: 60rem;
   width: 93%;
   border-radius: 1rem;
 }
 
 .image {
   width: 100%;
-  height: auto;
 }
 
 .desc-container {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 2.2rem;
+  height: 100%;
 }
 
 .subtitle {
@@ -126,16 +126,15 @@ p {
 @media (min-width: 600px) {
   .container {
     flex-direction: row;
-    height: 50rem;
+    height: 45rem;
     width: 60rem;
   }
 
-  .image {
-    width: auto;
-    height: 100%;
+  .desc-container {
+    width: 50%;
   }
 
-  .desc-container {
-    padding: 2.2rem;
+  .image-container {
+    width: 50%;
   }
 }
